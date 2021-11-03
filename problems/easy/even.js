@@ -5,7 +5,7 @@
 export const even = (xs) => {
 	// Your code here...
 	let evenNumArray = []
-	numArray.map( num => {
+	xs.map( num => {
 		if (num % 2 === 0) {
 			evenNumArray.push(num)
 		}
