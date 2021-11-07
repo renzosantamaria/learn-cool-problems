@@ -3,7 +3,7 @@
 // So for 2342 it should print [2,3,4,2].
 
 export const digits = (n) => {
-	return n ? n[0].toString().split('').map(num => parseInt(num)) : []
+	return n ? n.toString().split('').map(num => parseInt(num)) : []
 }
 
 const tests = [
