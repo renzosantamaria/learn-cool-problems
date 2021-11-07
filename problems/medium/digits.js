@@ -4,7 +4,7 @@
 
 export const digits = (n) => {
 	// Your code here...
-	return []
+	return n ? n[0].toString().split('').map(num => parseInt(num)) : []
 }
 
 const tests = [
