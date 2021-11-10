@@ -3,6 +3,15 @@
 // eg. 1,2,3,4,5,6 and 6 -> [[2, 4], [1, 5]]
 export const equalSum = (xs, n) => {
 	// Your code here...
+
+	// sort the numbers -> asc
+	// check if the last element of the array is equal or higher than the number to compare(CN), if so go back 1 step untill we find a lower number
+	// Now we compare the first number(LN) in the array with our new "last number of array"(HN)
+	// if CN > LN + HN check for how much. 
+	// If the diff is higher than HN go back one step from HN and do the comparison again
+	// If the diff is lower than HN go forward one step from the LN and do the comparison again
+	// repeat until (index of HN - index of LN) = 1
+
 	return []
 }
 
